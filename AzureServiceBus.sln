@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AzureBus.Receiver", "AzureBus.Receiver\AzureBus.Receiver.xproj", "{BE9108B2-8521-4661-8B94-472321905294}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AzureBus.Sender", "AzureBus.Sender\AzureBus.Sender.xproj", "{F2621118-4F4A-4644-8F53-54F1613D655E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AzureBus.Chat", "AzureBus.Chat\AzureBus.Chat.xproj", "{0F18C871-4C09-4DE7-BCA2-4A2C60F68259}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADB140D5-A881-44A6-870D-11EE769C4466}"
+	ProjectSection(SolutionItems) = preProject
+		AzureBus.Sender\global.json = AzureBus.Sender\global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE9108B2-8521-4661-8B94-472321905294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9108B2-8521-4661-8B94-472321905294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9108B2-8521-4661-8B94-472321905294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9108B2-8521-4661-8B94-472321905294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2621118-4F4A-4644-8F53-54F1613D655E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2621118-4F4A-4644-8F53-54F1613D655E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2621118-4F4A-4644-8F53-54F1613D655E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2621118-4F4A-4644-8F53-54F1613D655E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F18C871-4C09-4DE7-BCA2-4A2C60F68259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F18C871-4C09-4DE7-BCA2-4A2C60F68259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F18C871-4C09-4DE7-BCA2-4A2C60F68259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F18C871-4C09-4DE7-BCA2-4A2C60F68259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "description": "AzureBus.Receiver Console Application",
+  "authors": [ "Suhu" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "WindowsAzure.ServiceBus": "3.2.2"
+  },
+
+  "commands": {
+    "AzureBus.Receiver": "AzureBus.Receiver"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+   
+  }
+}

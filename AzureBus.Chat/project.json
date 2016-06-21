@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "description": "AzureBus.Chat Console Application",
+  "authors": [ "Suhu" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "WindowsAzure.ServiceBus": "3.2.2"
+  },
+
+  "commands": {
+    "AzureBus.Chat": "AzureBus.Chat"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+   
+    }  
+}

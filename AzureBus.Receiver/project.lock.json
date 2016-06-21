@@ -1,0 +1,75 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "WindowsAzure.ServiceBus/3.2.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization",
+          "System.ServiceModel",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45-full/Microsoft.ServiceBus.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/Microsoft.ServiceBus.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "WindowsAzure.ServiceBus/3.2.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization",
+          "System.ServiceModel",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45-full/Microsoft.ServiceBus.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/Microsoft.ServiceBus.dll": {}
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "WindowsAzure.ServiceBus/3.2.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization",
+          "System.ServiceModel",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45-full/Microsoft.ServiceBus.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/Microsoft.ServiceBus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WindowsAzure.ServiceBus/3.2.2": {
+      "type": "package",
+      "sha512": "I3WjnzlYoxUmgYXDgqNHafgZj81Qa5L5CWl5EJjyauONYh979KbCy2CQubdmoYJ69gFhmN4r4WR0QvufjD4JIg==",
+      "files": [
+        "content/app.config.install.xdt",
+        "content/web.config.install.xdt",
+        "lib/net45-full/Microsoft.ServiceBus.dll",
+        "lib/net45-full/Microsoft.ServiceBus.xml",
+        "WindowsAzure.ServiceBus.3.2.2.nupkg",
+        "WindowsAzure.ServiceBus.3.2.2.nupkg.sha512",
+        "WindowsAzure.ServiceBus.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "WindowsAzure.ServiceBus >= 3.2.2"
+    ],
+    "DNX,Version=v4.5.1": []
+  }
+}
